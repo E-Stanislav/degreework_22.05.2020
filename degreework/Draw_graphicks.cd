@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_2d_graphics_d.Data">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="calculateS" Hidden="true" />
+      <Field Name="colorStressMax" Hidden="true" />
+      <Field Name="colorStressMin" Hidden="true" />
+      <Field Name="el_destroy" Hidden="true" />
+      <Method Name="element_destroy" Hidden="true" />
+      <Field Name="file_path" Hidden="true" />
+      <Method Name="find_el_by_number" Hidden="true" />
+      <Method Name="find_el_by_point" Hidden="true" />
+      <Method Name="find_nodes_with_force" Hidden="true" />
+      <Method Name="geron" Hidden="true" />
+      <Method Name="getColorStress" Hidden="true" />
+      <Field Name="k" Hidden="true" />
+      <Field Name="lii" Hidden="true" />
+      <Field Name="mass" Hidden="true" />
+      <Field Name="mass_of_material" Hidden="true" />
+      <Field Name="MaxX" Hidden="true" />
+      <Field Name="MaxY" Hidden="true" />
+      <Method Name="min_max_size_img" Hidden="true" />
+      <Method Name="mydiv" Hidden="true" />
+      <Method Name="new_find_stress_in_el" Hidden="true" />
+      <Field Name="node_with_fofce" Hidden="true" />
+      <Field Name="point" Hidden="true" />
+      <Field Name="s" Hidden="true" />
+      <Method Name="stress_in_node" Hidden="true" />
+      <Field Name="xxx" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>McAAgIDEAQIiCBBQAAAAAAAAAACQBCAAgKIAgAAgAgQ=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="node" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_2d_graphics_d.node" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAMQAAAAQAAAAAAAAAAAAAAAABgAAAAAgA=</HashCode>
+      <FileName>Nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="degreework.Graphics">
+    <Position X="0.5" Y="1.5" Width="2.25" />
+    <Members>
+      <Field Name="additionalFunctions" Hidden="true" />
+      <Field Name="ApproximationColors" Hidden="true" />
+      <Field Name="ApproximationPointsType" Hidden="true" />
+      <Method Name="button1_Click" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Method Name="button11_Click" Hidden="true" />
+      <Method Name="button2_Click" Hidden="true" />
+      <Method Name="button3_Click" Hidden="true" />
+      <Method Name="button4_Click" Hidden="true" />
+      <Method Name="button5_Click" Hidden="true" />
+      <Method Name="button6_Click" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Method Name="button7_Click" Hidden="true" />
+      <Field Name="button8" Hidden="true" />
+      <Method Name="button8_Click" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Method Name="button9_Click" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Method Name="checkBox1_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox2" Hidden="true" />
+      <Method Name="checkBox2_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox3" Hidden="true" />
+      <Method Name="checkBox3_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox4" Hidden="true" />
+      <Method Name="checkBox4_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox5" Hidden="true" />
+      <Method Name="checkBox5_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox6" Hidden="true" />
+      <Method Name="checkBox6_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox7" Hidden="true" />
+      <Method Name="checkBox7_CheckedChanged" Hidden="true" />
+      <Method Name="ClearCheck" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Method Name="comboBox1_SelectedIndexChanged" Hidden="true" />
+      <Field Name="comboBox2" Hidden="true" />
+      <Field Name="comboBox3" Hidden="true" />
+      <Field Name="comboBox4" Hidden="true" />
+      <Field Name="comboBox5" Hidden="true" />
+      <Field Name="comboBox6" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="CopyFile" Hidden="true" />
+      <Field Name="CurrentGraphType" Hidden="true" />
+      <Field Name="directories" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="DrawAllGraph" Hidden="true" />
+      <Method Name="DrawAllGraphD" Hidden="true" />
+      <Method Name="drawForceECKGraph" Hidden="true" />
+      <Method Name="DrawGraphD" Hidden="true" />
+      <Method Name="drawMoveECKGraph" Hidden="true" />
+      <Method Name="drawMoveXGraph" Hidden="true" />
+      <Method Name="drawMoveYGraph" Hidden="true" />
+      <Field Name="elements" Hidden="true" />
+      <Field Name="excelToolStripMenuItem" Hidden="true" />
+      <Field Name="flag" Hidden="true" />
+      <Method Name="get_value" Hidden="true" />
+      <Method Name="Graphics" Hidden="true" />
+      <Method Name="Graphics_FormClosed" Hidden="true" />
+      <Method Name="Graphics_Load" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox2" Hidden="true" />
+      <Field Name="groupBox3" Hidden="true" />
+      <Field Name="groupBox4" Hidden="true" />
+      <Field Name="groupBox5" Hidden="true" />
+      <Field Name="groupBox6" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="list" Hidden="true" />
+      <Field Name="m_type_calc" Hidden="true" />
+      <Method Name="make_img" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Method Name="movement" Hidden="true" />
+      <Field Name="movx" Hidden="true" />
+      <Field Name="movy" Hidden="true" />
+      <Method Name="mydiv" Hidden="true" />
+      <Field Name="nrc" Hidden="true" />
+      <Field Name="OpenDataToolStripMenuItem" Hidden="true" />
+      <Method Name="OpenDataToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="pane" Hidden="true" />
+      <Field Name="pane_d" Hidden="true" />
+      <Field Name="radioButton1" Hidden="true" />
+      <Method Name="radioButton1_CheckedChanged" Hidden="true" />
+      <Field Name="radioButton2" Hidden="true" />
+      <Method Name="radioButton2_CheckedChanged" Hidden="true" />
+      <Field Name="radioButton3" Hidden="true" />
+      <Method Name="radioButton3_CheckedChanged" Hidden="true" />
+      <Method Name="RedrawAllIfNeeded" Hidden="true" />
+      <Method Name="RedrawComplexGraph" Hidden="true" />
+      <Method Name="solveGJ" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tempx" Hidden="true" />
+      <Field Name="tempy" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Method Name="textBox1_TextChanged" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Method Name="textBox2_TextChanged" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripStatusLabel1" Hidden="true" />
+      <Field Name="toolStripStatusLabel2" Hidden="true" />
+      <Method Name="wordmake" Hidden="true" />
+      <Field Name="wordToolStripMenuItem" Hidden="true" />
+      <Method Name="wordToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="x" Hidden="true" />
+      <Field Name="y" Hidden="true" />
+      <Field Name="zedGraph" Hidden="true" />
+      <Method Name="zedGraph_Load" Hidden="true" />
+      <Field Name="добавитьToolStripMenuItem" Hidden="true" />
+      <Field Name="дополнительныеГрафикиToolStripMenuItem" Hidden="true" />
+      <Field Name="затухающаяВолнаToolStripMenuItem" Hidden="true" />
+      <Method Name="затухающаяВолнаToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="открытьПоследнийToolStripMenuItem" Hidden="true" />
+      <Method Name="открытьПоследнийToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="сохранитьГрафикиВWordToolStripMenuItem" Hidden="true" />
+      <Method Name="сохранитьГрафикиВWordToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="удалитьВсеToolStripMenuItem" Hidden="true" />
+      <Method Name="удалитьВсеToolStripMenuItem_Click" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="degreework.Graphics.GraphType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graphics.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QTD4hyCyAKB2BZEzHICzWAUSQE0CgpgE0XB/DAUBjAc=</HashCode>
+      <FileName>Graphics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Data" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
