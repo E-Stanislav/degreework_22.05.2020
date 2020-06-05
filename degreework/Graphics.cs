@@ -168,7 +168,7 @@ namespace degreework
             double[] u = new double[3];
             double[] v = new double[3];
             double uxy, vxy;
-            double temp;
+            //double temp;
             bool solved = true;
 
             num_of_el = data.find_el_by_point(x, y);
@@ -742,7 +742,7 @@ namespace degreework
 
             }
             Func<double, double> ApproximationFunction;
-            Color FunctionColor;
+            //Color FunctionColor;
             String FunctionString = "";
             switch (approximationtype)
             {
@@ -2352,7 +2352,7 @@ namespace degreework
             app.SheetsInNewWorkbook = 1;
             Workbook wb = app.Workbooks.Add(Type.Missing);
             Worksheet sheet = (Worksheet)app.Worksheets.get_Item(1);
-            int offset = 0;
+            //int offset = 0;
 
 
             int a = 0;
@@ -3042,8 +3042,6 @@ namespace degreework
             RecalculateCoefficients();
             SecondRecalculateCoefficients();
         }
-
-
     }
 }
 
